@@ -1,4 +1,4 @@
-package main.java.org.example;
+package main.java.thread.runnablethread;
 
 public class Main {
     public static void main(String[] args) {
