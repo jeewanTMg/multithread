@@ -1,4 +1,4 @@
-package main.java.thread.runnablethread;
+package main.java.thread.creatingthread.runnablethread;
 
 public class ExampleThread implements Runnable{
 

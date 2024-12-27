@@ -1,6 +1,4 @@
-package main.java.thread.runnablethread;
-
-import main.java.thread.runnablethread.ExampleThread;
+package main.java.thread.creatingthread.runnablethread;
 
 public class RunnableExample {
     public static void main(String[] args) {
