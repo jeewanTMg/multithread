@@ -5,10 +5,15 @@ public class Employee {
     private String address;
     private String salary;
 
-    public Employee(String name, String address, String salary) {
+    private String newJoiner;
+    private String learningPending;
+
+    public Employee(String name, String address, String salary, String newJoiner, String learningPending) {
         this.name = name;
         this.address = address;
         this.salary = salary;
+        this.newJoiner = newJoiner;
+        this.learningPending = learningPending;
     }
 
     public String getName() {
@@ -35,12 +40,30 @@ public class Employee {
         this.salary = salary;
     }
 
+    public String getNewJoiner() {
+        return newJoiner;
+    }
+
+    public void setNewJoiner(String newJoiner) {
+        this.newJoiner = newJoiner;
+    }
+
+    public String getLearningPending() {
+        return learningPending;
+    }
+
+    public void setLearningPending(String learningPending) {
+        this.learningPending = learningPending;
+    }
+
     @Override
     public String toString() {
         return "Employee{" +
                 "name='" + name + '\'' +
                 ", address='" + address + '\'' +
                 ", salary='" + salary + '\'' +
+                ", newJoiner='" + newJoiner + '\'' +
+                ", learningPending='" + learningPending + '\'' +
                 '}';
     }
 }

@@ -1,6 +1,5 @@
 package main.java.thread.java8thread;
 
-import java.io.File;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -35,10 +34,10 @@ public class RunAsyncDemoExample {
 
     public List<Employee> getAllEmploye() {
         List<Employee> allEmployee = new LinkedList<>();
-        Employee firstEmployee = new Employee("java","New York","12000");
-        Employee firstEmployee1 = new Employee("programming","Salt Lake City","12000");
-        Employee firstEmployee2 = new Employee("language","Dallas","12000");
-        Employee firstEmployee3 = new Employee("java","Ohio","12000");
+        Employee firstEmployee = new Employee("java","New York","12000","true","fasle");
+        Employee firstEmployee1 = new Employee("programming","Salt Lake City","12000","true","fasle");
+        Employee firstEmployee2 = new Employee("language","Dallas","12000","true","fasle");
+        Employee firstEmployee3 = new Employee("java","Ohio","12000","true","fasle");
         allEmployee.add(firstEmployee);
         allEmployee.add(firstEmployee1);
         allEmployee.add(firstEmployee2);
